@@ -25,10 +25,15 @@ Our rules force using `LF` line-endings format. To make sure that your system do
 
 ### For Node library projects
 
-Prefer using the `biome.lib.json` variant of our config:
+For Node library projects (that output a reusable package, not an app) you should also extend the `biome.lib.json` variant of our config:
 
 ```json
-{ "extends": ["@side-xp/biome-config/biome.lib.json"] }
+{
+  "extends": [
+    "@side-xp/biome-config",
+    "@side-xp/biome-config/biome.lib.json"
+  ]
+}
 ```
 
 It enforces a few rules for libraries specifically, like considering an error to let `console` calls in the code unless they're used in tests.
