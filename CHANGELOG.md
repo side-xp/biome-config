@@ -1,3 +1,10 @@
+# [1.1.0](https://github.com/side-xp/biome-config/compare/v1.0.0...v1.1.0) (2026-04-19)
+
+
+### Features
+
+* improve usage instructions ([e3f2554](https://github.com/side-xp/biome-config/commit/e3f2554d0db5a4ab41e7915c7cdbe198f8643a59))
+
 # 1.0.0 (2026-04-19)
 
 
