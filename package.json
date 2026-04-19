@@ -1,0 +1,42 @@
+{
+  "name": "@side-xp/biome-config",
+  "version": "0.0.0",
+  "description": "Shared Biome configuration for projects at Sideways Experiments",
+  "engines": {
+    "node": ">=20"
+  },
+  "keywords": ["biome", "config", "linter", "formatter"],
+  "license": "MIT",
+  "main": "./biome.json",
+  "type": "module",
+  "files": [
+    "biome.json",
+    "biome.lib.json"
+  ],
+  "homepage": "https://github.com/side-xp/biome-config#readme",
+  "bugs": {
+    "url": "https://github.com/side-xp/biome-config/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/side-xp/biome-config.git"
+  },
+  "scripts": {
+    "validate": "node scripts/validate-configs.js"
+  },
+  "peerDependencies": {
+    "@biomejs/biome": ">=2.4.12"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "devDependencies": {
+    "semantic-release": "^24.0.0",
+    "@semantic-release/commit-analyzer": "^13.0.0",
+    "@semantic-release/release-notes-generator": "^14.0.0",
+    "@semantic-release/changelog": "^6.0.0",
+    "@semantic-release/npm": "^12.0.0",
+    "@semantic-release/git": "^10.0.0",
+    "@semantic-release/github": "^10.0.0"
+  }
+}
