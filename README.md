@@ -4,7 +4,11 @@ A few [Biome](https://biomejs.dev) config files shared across Sideways Experimen
 
 ## Usage
 
-In your Node project, you must use [Biome](https://biomejs.dev) as your linting & formatting tool in order to use these configurations.
+In your Node project, you must use [Biome](https://biomejs.dev) as your linting & formatting tool in order to use these configurations. Plus, you must install this package as dev dependency:
+
+```
+npm i -D @biomejs/biome @side-xp/biome-config
+```
 
 Create a `biome.json` file at the root of your project, and add an `extends` rule with the appropriate config file:
 
