@@ -1,3 +1,10 @@
+# [1.2.0](https://github.com/side-xp/biome-config/compare/v1.1.1...v1.2.0) (2026-04-26)
+
+
+### Features
+
+* add app variant ([b7f42b7](https://github.com/side-xp/biome-config/commit/b7f42b7856880e74b12889ab50015f0ea6186de5))
+
 ## [1.1.1](https://github.com/side-xp/biome-config/compare/v1.1.0...v1.1.1) (2026-04-19)
 
 
