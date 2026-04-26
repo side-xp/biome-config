@@ -38,6 +38,21 @@ For Node library projects (that output a reusable package, not an app) you shoul
 
 It enforces a few rules for libraries specifically, like considering an error to let `console` calls in the code unless they're used in tests.
 
+### For app projects
+
+For Node app projects you should also extend the `biome.app.json` variant of our config:
+
+```json
+{
+  "extends": [
+    "@side-xp/biome-config",
+    "@side-xp/biome-config/biome.app.json"
+  ]
+}
+```
+
+It adds support for Tailwind directives like `@theme`.
+
 ## Developer setup
 
 ```
