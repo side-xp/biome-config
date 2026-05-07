@@ -16,6 +16,7 @@
   "type": "module",
   "files": [
     "biome.json",
+    "biome.app.json",
     "biome.lib.json"
   ],
   "homepage": "https://github.com/side-xp/biome-config#readme",
