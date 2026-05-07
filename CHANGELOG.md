@@ -1,3 +1,10 @@
+## [1.2.1](https://github.com/side-xp/biome-config/compare/v1.2.0...v1.2.1) (2026-05-07)
+
+
+### Bug Fixes
+
+* fix app config not published ([9b15484](https://github.com/side-xp/biome-config/commit/9b154846d6d31a6fd07e5fe243c9d78159550266))
+
 # [1.2.0](https://github.com/side-xp/biome-config/compare/v1.1.1...v1.2.0) (2026-04-26)
 
 
