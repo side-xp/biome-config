@@ -1,3 +1,10 @@
+# [1.3.0](https://github.com/side-xp/biome-config/compare/v1.2.1...v1.3.0) (2026-10-29)
+
+
+### Features
+
+* migrate to Biome 2.6 ([bd9150d](https://github.com/side-xp/biome-config/commit/bd9150d4e92b24ecb4fa6c238de9c2287980099c))
+
 ## [1.2.1](https://github.com/side-xp/biome-config/compare/v1.2.0...v1.2.1) (2026-05-07)
 
 
