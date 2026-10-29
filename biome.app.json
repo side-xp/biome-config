@@ -1,6 +1,14 @@
 {
-  "$schema": "https://biomejs.dev/schemas/2.4.12/schema.json",
+  "root": false,
+  "$schema": "https://biomejs.dev/schemas/2.6.3/schema.json",
   "extends": ["./biome.json"],
+  "linter": {
+    "rules": {
+      "nursery": {
+        "useTailwindSortedClasses": "error"
+      }
+    }
+  },
   "css": {
     "parser": {
       "tailwindDirectives": true
