@@ -35,7 +35,7 @@
     "access": "public"
   },
   "peerDependencies": {
-    "@biomejs/biome": ">=2.4.12"
+    "@biomejs/biome": "^2.6.3"
   },
   "devDependencies": {
     "@commitlint/cli": "^20.5.0",

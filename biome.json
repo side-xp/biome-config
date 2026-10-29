@@ -1,5 +1,5 @@
 {
-  "$schema": "https://biomejs.dev/schemas/2.4.12/schema.json",
+  "$schema": "https://biomejs.dev/schemas/2.6.3/schema.json",
   "vcs": {
     "enabled": true,
     "clientKind": "git",
@@ -18,7 +18,25 @@
   "linter": {
     "enabled": true,
     "rules": {
-      "recommended": true
+      "preset": "recommended",
+      "complexity": {
+        "useArraySome": "error",
+        "useArrayFind": "error",
+        "useRegexpTest": "error",
+        "noUselessReturn": "error",
+        "noUnnecessaryTemplateExpression": "error"
+      },
+      "style": {
+        "useSpreadOverApply": "error",
+        "noMultilineString": "error"
+      },
+      "suspicious": {
+        "noShadow": "error",
+        "noNestedPromises": "error",
+        "noReturnAssign": "error",
+        "noLoopFunc": "error",
+        "useArraySortCompare": "error"
+      }
     }
   },
   "javascript": {
